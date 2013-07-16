@@ -1,0 +1,61 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="6dip">
+        <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+			<Button
+		        android:id="@+id/new_game_button"
+		        style="?android:attr/buttonBarButtonStyle"
+		        android:background="@drawable/button_highlight"
+		        android:text="@string/new_game"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"/>
+			<View
+		    android:layout_width="1dip"
+		    android:layout_height="30dip"
+		    android:layout_gravity="center"
+		    android:background="#000000" />
+			<Button
+		        android:id="@+id/refresh_button"
+		        style="?android:attr/buttonBarButtonStyle"
+		        android:background="@drawable/button_highlight"
+		        android:text="@string/refresh"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"/>
+			<View
+		    android:layout_width="1dip"
+		    android:layout_height="30dip"
+		    android:layout_gravity="center"
+		    android:background="#000000" />
+			<Button
+		        android:id="@+id/logout_button"
+		        style="?android:attr/buttonBarButtonStyle"
+		        android:background="@drawable/button_highlight"
+		        android:text="@string/logout"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"/>
+			<View
+		    android:layout_width="1dip"
+		    android:layout_height="30dip"
+		    android:layout_gravity="center"
+		    android:background="#000000" />
+		</LinearLayout>    
+	    <View
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dip"
+		    android:background="#000000" />
+	    <LinearLayout
+	       	android:layout_width="match_parent"
+   			android:layout_height="match_parent"
+   			android:orientation="vertical"
+	        android:id="@+id/game_list"/>
+    </LinearLayout>
+</ScrollView>
+   

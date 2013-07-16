@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/move_num"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text="@string/no_move" />
+    <TextView
+        android:id="@+id/white_move_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/no_move" />
+
+    <TextView
+        android:id="@+id/black_move_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/no_move"/>"
+
+</LinearLayout>

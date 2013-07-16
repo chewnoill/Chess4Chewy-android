@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <View
+		    android:layout_width="match_parent"
+		    android:layout_height="1dip"
+		    android:background="#000000" />
+    <LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:id="@+id/extra">
+    <Button 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        android:id="@+id/resign"
+        android:background="@drawable/button_highlight"
+        android:textSize="14sp"
+        android:text="@string/resign"/>
+    <View
+		    android:layout_width="1dip"
+		    android:layout_height="match_parent"
+		    android:background="#000000" />
+    <Button 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        android:id="@+id/draw"
+        android:background="@drawable/button_highlight"
+        android:textSize="14sp"
+        android:text="@string/draw"/>
+    <View
+		    android:layout_width="1dip"
+		    android:layout_height="match_parent"
+		    android:background="#000000" />
+    <Button 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        android:id="@+id/move_list"
+        android:background="@drawable/button_highlight"
+        android:textSize="14sp"
+        android:text="@string/move_list"/>
+    <View
+		    android:layout_width="1dip"
+		    android:layout_height="match_parent"
+		    android:background="#000000" />
+    </LinearLayout>
+</LinearLayout>
